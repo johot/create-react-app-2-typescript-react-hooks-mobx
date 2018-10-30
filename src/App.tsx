@@ -10,7 +10,7 @@ const store = new Store();
 const MobXCounter = observer(() => {
   return (
     <>
-      <h1>Counter (MobX): {store.count}</h1>
+      <h1>Counter (MobX store): {store.count}</h1>
       <button onClick={() => store.count++}>Count up</button>
       <hr />
     </>
