@@ -8,6 +8,7 @@
     "@types/react": "16.4.18",
     "@types/react-dom": "16.0.9",
     "mobx": "^5.5.2",
+    "mobx-react": "file:mobx-react-5.4.0-alpha.tgz",
     "react": "^16.7.0-alpha",
     "react-dom": "^16.7.0-alpha",
     "react-scripts": "2.1.0",
