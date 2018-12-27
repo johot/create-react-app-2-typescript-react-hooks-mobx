@@ -1,7 +1,7 @@
 import React, { Component, useState, useEffect } from "react";
 import logo from "./logo.svg";
 import "./App.css";
-import { observer } from "mobx-react";
+import { observer } from "mobx-react-lite";
 import { observable, decorate } from "mobx";
 import { Store } from "./store";
 

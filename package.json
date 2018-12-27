@@ -2,13 +2,14 @@
   "name": "create-react-app-2-typescript-react-hooks-mobx",
   "version": "0.1.0",
   "private": true,
+  "homepage": ".",
   "dependencies": {
     "@types/jest": "23.3.8",
     "@types/node": "10.12.1",
     "@types/react": "16.4.18",
     "@types/react-dom": "16.0.9",
     "mobx": "^5.5.2",
-    "mobx-react": "file:mobx-react-5.4.0-alpha.tgz",
+    "mobx-react-lite": "^0.3.4",
     "react": "^16.7.0-alpha",
     "react-dom": "^16.7.0-alpha",
     "react-scripts": "2.1.0",
@@ -19,7 +20,10 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "build-docs": "rm -rf docs && npm run build && mv build docs && git add . && git commit -m 'Build' && git push",
+    "bd": "npm run build-docs",
+    "bp": "npm run bd"
   },
   "eslintConfig": {
     "extends": "react-app"
